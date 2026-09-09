@@ -51,6 +51,13 @@ function renderFooter(basePath = "./") {
         <a class="text-decoration-none" href="${basePath}contact.html">Contacto</a>
       </div>
     </div>
+    <div class="container d-flex align-items-center justify-content-center gap-2 pt-3 mt-3 border-top small text-muted">
+      <a class="d-flex align-items-center gap-2 text-decoration-none text-muted" href="https://gabansolutions.ca" target="_blank" rel="noopener noreferrer">
+        <span>Sitio web creado por</span>
+        <img src="${basePath}images/gaban-logo.png" alt="GABAN Solutions" height="20">
+        <span class="fw-medium">GABAN Solutions</span>
+      </a>
+    </div>
   </footer>
   `;
 }
